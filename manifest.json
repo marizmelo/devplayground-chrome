@@ -1,9 +1,9 @@
 {
   "name"			: "Devplayground",
   "version"			: "1.0",
-  "description"		: "Opens devplayground.io in a new tab",
-  "browser_action"	: { "name" : "devplayground", "default_icon": "devplayground.png"},
-  "background"	: {"scripts": ["background.js"]},
+  "description"		: "Launch devplayground.io editor in a new tab and let users collaborate together on the same code.",
+  "browser_action"	: { "name" : "Devplayground", "default_icon": "devplayground.png"},
+  "background"	: {"scripts": ["background.js"], "persistent": false},
   "manifest_version": 2,
-  "icons"			: 	{ "48" : "devplayground48.png" }
+  "icons"			: 	{ "16": "devplayground.png", "48" : "devplayground48.png", "128": "devplayground128.png" }
 }
